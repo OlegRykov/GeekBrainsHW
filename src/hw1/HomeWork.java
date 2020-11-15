@@ -1,4 +1,5 @@
 package hw1;
+//для гита
 
 public class HomeWork {
     public static void main(String[] args) {

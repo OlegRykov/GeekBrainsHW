@@ -1,7 +1,5 @@
 package hw1;
 
-import java.util.Scanner;
-
 public class HomeWork {
     public static void main(String[] args) {
         int m = 12;

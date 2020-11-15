@@ -1,10 +1,9 @@
 package hw1;
-//для гита
 
 public class HomeWork {
     public static void main(String[] args) {
-        int m = 12;
-        byte k = 2;
+        int m = 13;
+        byte k = 4;
         short p = 35;
         long o = 350L;
         float z = 36.22F;

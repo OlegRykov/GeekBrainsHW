@@ -2,8 +2,8 @@ package hw1;
 
 public class HomeWork {
     public static void main(String[] args) {
-        int m = 13;
-        byte k = 4;
+        int m = 12;
+        byte k = 2;
         short p = 35;
         long o = 350L;
         float z = 36.22F;
@@ -22,7 +22,7 @@ public class HomeWork {
 
         hello("Олег");
 
-        leapyear(2019);
+        leapyear(2300);
 
     }
     public static float calculate(float a, float b, float c, float d) {
@@ -52,7 +52,11 @@ public class HomeWork {
 
     public static void leapyear(int year) {
         int n = year % 4;
-        if (n > 0) {
+        int q = year % 100;
+        int g = year % 400;
+        if (n == 0 && g == 0) {
+            System.out.println("Год високосный.");
+        } else if (n > 0 || q == 0) {
             System.out.println("Год невисокосный.");
         } else {
             System.out.println("Год високосный.");

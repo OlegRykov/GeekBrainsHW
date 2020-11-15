@@ -61,6 +61,5 @@ public class HomeWork {
         } else {
             System.out.println("Год високосный.");
         }
-
     }
 }

@@ -22,7 +22,7 @@ public class HomeWork {
 
         hello("Олег");
 
-        leapyear(2300);
+        leapyear(1700);
 
     }
     public static float calculate(float a, float b, float c, float d) {

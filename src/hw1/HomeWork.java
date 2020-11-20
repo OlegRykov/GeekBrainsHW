@@ -2,7 +2,7 @@ package hw1;
 
 public class HomeWork {
     public static void main(String[] args) {
-        int m = 12;
+        int m = 14;
         byte k = 2;
         short p = 35;
         long o = 350L;
